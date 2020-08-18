@@ -9,7 +9,7 @@ for i in range(lower,upper+1):
 			if i%j==0:
 				break
 		else:
-			print(i)
+			#print(i)    #print all prime no is gien interval
 			sum=0
 			while i>0:
 				s=i%10
